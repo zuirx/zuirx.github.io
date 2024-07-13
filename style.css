@@ -1,0 +1,60 @@
+body 
+{
+    background-color: #1B1F2B;
+    color: skyblue;
+    font-family: sans-serif;
+    width: 400px;
+    margin: 0 auto;
+}
+
+header 
+{
+    text-align: center;
+    max-width:40rem;
+    margin:0 auto;
+    padding-bottom:4rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav
+{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+a
+{
+    text-decoration: none;
+    color: aqua;
+    font-size: 14px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.deco
+{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.music
+{
+    text-align: center;
+}
+
+a h1
+{
+    color:skyblue;
+}
+
+h1
+{
+    font-size: 36px;
+}
+
+.center
+{
+    text-align: center;
+}

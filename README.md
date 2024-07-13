@@ -1,2 +1,0 @@
-# zuirx.github.io
-site
