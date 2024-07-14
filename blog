@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>zuirx blog</title>
+</head>
+<body>
+    <header>
+        <a href="/"><h1>zuirx</h1></a>
+        <nav>
+            <a href="https://github.com/zuirx">portfolio</a>
+            <a href="etc">etc</a>
+            <a href="blog">blog</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!--
+            <p style="color:gray"></p> <p></p> <hr>
+            -->
+            <p style="color:gray">08/05/24 - 10:46</p> <p>updated games page</p> <hr>
+            <p style="color:gray">07/05/24 - 09:23</p> <p>im sorry, windows enterprise ltsc is just what you need for desktop. i'm tired of being embarrassed. and no, you dont need to debloat everything, a firewall will do most of the job.</p> <hr>
+            <p style="color:gray">29/04/24 - 16:34</p> <p>new (recycled) guides check it out!!!</p> <hr>
+            <p style="color:gray">28/04/24 - 10:37</p> <p>explaining things, i redid the site and added new stuff, and make all of my stuff fit in one place <br> <br>also check out guides, there's one there.</p> <hr>
+            <p style="color:gray">27/04/24 - 22:51</p> <p>i have no idea what i am doing</p> <hr>
+            <p style="color:gray">02/04/24 - 10:28</p> <p>probally gonna shutdown this blog</p> <hr>
+            <p style="color:gray">29/03/24 - 16:41</p> <p>GOT A CAR<br><br> HAPPY EGG DAY</p> <hr>
+            <p style="color:gray">08/03/24 - 21:58</p> <p>hello, doesnt look like much time but a lot happened on those weeks, got a new job now related to programming (instead of configuring/fixing printers)<br><br>i feel happy!
+            <br><br>
+            feeling like to change this site or migrate to other site??? idk
+            </p> <hr>
+            <p style="color:gray">15/02/24 - 08:26</p> <p>ne wgame: <a target="_blank" href="https://zuirx.itch.io/bople">bople</a>
+            <br> also a page for the clones: <a target="_blank" href="https://zuirx.itch.io/clones">clones</a></p> <hr>
+            <p style="color:gray">14/02/24 - 11:30</p> <p>old clickteam game i've done long time ago is now public: <a target=_blank href="https://zuirx.itch.io/pumpkin">pumpkin</a><br><br>in this one i was mabbart, i changed a lot of names</p> <hr>
+            <p style="color:gray">14/02/24 - 09:12</p> <p>it took one(1) year to knowledge exit(0) existance</p> <hr>
+            <p style="color:gray">06/02/24 - 17:03</p> <p>feels better in C <a target="_blank" href="https://youtu.be/watch?v=UCgoxQCf5Jg&t=126s">BECAUSE ITS FUN</a></p> <hr>
+            <p style="color:gray">30/01/24 - 16:01</p> <p>losing ideas this month, godot still not fun4me</p> <hr>
+            <p style="color:gray">28/01/24 - 14:55</p> <p>chat box GONE</p> <hr>
+            
+            <p style="color:gray">04/01/24 - 18:41</p><p>HAPPY NEW YEAR, I DO HAVE COOL STUFF
+            <br><br>
+            
+            <a href="0/j/3onw5v.png">3DFPS!!!!!!!!!!!!!! (REVOLUTIONARY)</a><br>
+            <a href="0/j/jxflhz.mp4">ENEMY AI!@!@!@!@</a><br><br>
+            
+            I REDID THEM:  <br> <br>
+            
+            <a href="0/j/xpcq1p.png">space invaders</a> <br>
+            <a href="0/j/oforxb.png">space game</a> <br>
+            <a href="0/j/t70wpi.png">pong</a> <br>
+            <a href="0/j/qfy7gl.png">arkanoid</a> <br>
+            <a href="0/j/7tejgi.png">small platform game with shadows</a> <br>
+            <a href="0/j/ijwca0.png">DARIO</a> <br><br>
+            CUNT YEAR
+            </p> <hr>
+            
+            <p style="color:gray">26/12/23 - 11:21</p> <p>did i understand godot now????</p> <hr>
+            <p style="color:gray">19/12/23 - 09:20</p> <p>2023 rewind:<br><br>
+        
+            jan:<br>
+            - helped dad<br>
+            - playing games with friend streaming<br>
+            - tried going back at the gym, but too remote even if I go with a bike<br><br>
+        
+            feb:<br>
+            - end of vacation<br>
+            - started college late, without any scholarship<br><br>
+        
+            mar:<br>
+            - looking for work while college<br>
+            - friends meetup<br><br>
+        
+            apr:<br>
+            - first job :D D:<br><br>
+        
+            jun:<br>
+            - college dropout (lol)<br>
+            - first hold on mone<br><br>
+        
+            and the rest you can read here</p> <hr>
+            
+            <p style="color:gray">18/12/23 - 15:12</p> <p>got new gpu<br>AYYMD suck!!!@ (its a amd one)</p> <hr>
+            <p style="color:gray">04/12/23 - 22:31</p> <p><a href="0/j/zm1re6.mp4">video</a><br><br> and the year is ending, vuigsihshh.,,.,</p> <hr>
+            <p style="color:gray">26/11/23 - 20:07</p> <p>I GOYT A DRIVINER LOICENISE<br><br>thiking about a subrosa clone, why nobody did this? now i keep thinking about it</p> <hr>
+            <p style="color:gray">21/11/23 - 10:36</p> <p>printing books because my eyes cant take 12 hours of screen time.</p> <hr>
+            <p style="color:gray">14/11/23 - 16:02</p> <center><p><a href="https://zuirx.itch.io/john"></a></p><h2><a href="https://zuirx.itch.io/john">JOHN</a></h2><p></p></center> <hr>
+            <p style="color:gray">07/11/23 - 21:28</p> <p>trying muay thai</p> <hr>
+            <p style="color:gray">05/11/23 - 21:58</p> <p>NO DONT PRESS Q DONT DO IT</p> <hr>
+            <p style="color:gray">29/10/23 - 11:32</p> <p>poop</p> <hr>
+            <p style="color:gray">19/10/23 - 10:17</p> <p>git repo finished<br>check <a href="https://zuirx.neocities.org/m.html">music</a> cuz i want to purge soundcloud</p> <hr>
+            <p style="color:gray">16/10/23 - 18:28</p> <p>check <a href="https://zuirx.neocities.org/g.html">games</a></p> <hr>
+            <p style="color:gray">16/10/23 - 08:02</p> <p>website redone</p> <hr>
+            <p style="color:gray">14/10/23 - 22:57</p> <p>doing cool stuff but this site sucks, i will redoit + a git repo</p> <hr>
+            <p style="color:gray">04/10/23 - 16:24</p> <p>fuck windows now no one is my best friend</p> <hr>
+            <p style="color:gray">01/10/23 - 20:50</p> <p>ICANTFOCUS</p> <hr>
+            <p style="color:gray">26/09/23 - 16:00</p> <p>watching a comptia course<br><br>
+            sorry nothing cool to show<br>
+            <br><br>
+            also gaming alone got boring
+            </p> <hr>
+            <p style="color:gray">19/09/23 - 08:19</p> <p>fuck linux now windows is my best friend</p> <hr>
+            <p style="color:gray">16/09/23 - 21:22</p> <p>i commited the crime from updating arque linuques</p> <hr>
+            <p style="color:gray">12/09/23 - 08:56</p> <p><a href="0/j/uvcwol.mp4">preview</a></p> <hr>
+            <p style="color:gray">30/08/23 - 21:52</p> <p>project zomboid very good :)</p> <hr>
+            <p style="color:gray">21/08/23 - 16:03</p> <h1>h</h1> <hr>
+            <p style="color:gray">14/08/23 - 18:50</p> <p><a href="0/j/3ndafm.zip">arkanoid</a> but worse</p> <p style="color:black">HAPPY BIRTHDAY MOM</p><hr>
+            <p style="color:gray">11/08/23 - 19:54</p> <a href="https://kick.com/zuirx" target=" - blank"><p>STREAMING (portuguese)</p></a><p><a href="https://kick.com/zuirx" target=" - blank"></a> </p><hr>
+            <p style="color:gray">11/08/23 - 15:50</p> <p>hello<br>chat w/ me at @zuirx:matrix.org :Z</p> <hr>
+            <p style="color:gray">08/08/23 - 11:30</p> <p>got arduino kit arrived, i wont make a bomb I WILL I WILL I WILL HAHAHhah</p> <hr>
+            <p style="color:gray">08/08/23 - 08:17</p> <p>still not a space invader clone<a href="0/j/c4s7am.zip">invaders</a></p> <hr>
+            <p style="color:gray">07/08/23 - 17:28</p> <p>jk i will stream</p> <hr>
+            <p style="color:gray">07/08/23 - 13:21</p> <p>not a space invader clone<a href="0/j/u8riwa.zip">space</a></p> <hr>
+            <p style="color:gray">06/08/23 - 22:02</p> <p>nah aint gonna stream, good night</p> <hr>
+            <p style="color:gray">04/08/23 - 10:47</p> <p>i will stream, just dont know where..
+            </p> <hr>
+            <p style="color:gray">04/08/23 - 10:36</p> <p>the real ones I know who they are</p> <hr>
+            <p style="color:gray">02/08/23 - 16:09</p> <p>buy jwick switches, think it fits, it doesnt, i just threw mone awe <br><br>yt mfs spend more $ on a fucking keyboard than food</p> <hr>
+            <p style="color:gray">02/08/23 - 15:07</p> <p><a href="0/j/yb9h04.zip">pong clone</a></p> <hr>
+            <p style="color:gray">02/08/23 - 11:29</p> <p>imagine a remote desktop horror series</p> <hr>
+            <p style="color:gray">01/08/23 - 17:20</p> <p>stretched fullscreen finally working, will try making clones, john is a bad game
+            </p> <hr>
+            <p style="color:gray">31/07/23 - 11:23</p> <p>i 
+        never open the email, why did i include email then</p> <hr>
+            <p style="color:gray">31/07/23 - 10:10</p> <p>i WILL keep forgetting this thing (and it will happen again)<br><br>
+            i go blank and play games, i got addict to do nothing<br><br>
+            sometimes i try godot just to vomit 2 hours later<br><br>
+            and DO U HAVE AD DIRVIERN ICENSE????? I BE DOING###@!
+            </p> <hr>
+            <p style="color:gray">25/07/23 - 20:10</p> <p>asdfghjklzxcv</p> <hr>
+            <p style="color:gray">22/07/23 - 19:54</p> <p>if it boots windows 7 32 bit with a videocard john will be playable.</p> <hr>
+            <p style="color:gray">21/07/23 - 17:19</p> <p>
+                "50% always<br>
+                100 or 0% death<br>
+                serious condition hospital or intolerated party: few water drops left<br>
+                75%? colectivity, does not exist more than other.<br>
+                <br>
+                on average, in a matter of time, independent of parallel dimensions, always will be 50%"<br>
+                <br>
+                damn that night was sick
+                </p> <hr>
+            <p style="color:gray">21/07/23 - 12:50</p> <p>making john, with raylib and c99 (no exp)<br><br><a href="0/j/kyxweg.jpg" target=" - blank">-screenshot-</a><br><br>took a month just to do this (because procrastination)</p> <hr>
+            <p style="color:gray">21/07/23 - 09:22</p><p>and i ask to not add a password on windows ;/]</p> <hr>
+            <p style="color:gray">21/07/23 - 09:08</p><p>i think this is a good thing since i dont do shit.</p><hr>
+            <p style="color:gray">21/07/23 - 08:41</p><p>fucking hate blogs</p><hr>
+            </article>
+    </main>
+</body>
+</html>
