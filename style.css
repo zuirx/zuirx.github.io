@@ -1,9 +1,9 @@
 body 
 {
-    background-color: #1B1F2B;
-    color: skyblue;
+    background-color: #1F1F1F;
+    color: white;
     font-family: sans-serif;
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ nav
 a
 {
     text-decoration: none;
-    color: aqua;
+    color: #989BA1;
     font-size: 14px;
     margin-left:10px;
     margin-right:10px;
@@ -39,6 +39,11 @@ a
     text-align: center;
 }
 
+hr
+{
+    color:black;
+}
+
 .music
 {
     text-align: center;
@@ -46,10 +51,22 @@ a
 
 a h1
 {
-    color:skyblue;
+    color:#B7C8E5;
 }
 
 .center
 {
     text-align: center;
+}
+
+details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 16px;
+    cursor:pointer;
 }
