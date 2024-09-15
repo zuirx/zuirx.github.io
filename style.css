@@ -62,11 +62,11 @@ a h1
 details {
     border: 1px solid #ccc;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 summary {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     cursor:pointer;
 }
