@@ -6,46 +6,22 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>zuirx</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        function switchLanguage() {
-            const elements = document.querySelectorAll('[data-lang]');
-
-            elements.forEach(el => {
-                const currentLang = el.getAttribute('data-lang');
-                el.innerHTML = el.getAttribute('data-' + (currentLang === 'pt' ? 'en' : 'pt'));
-                el.setAttribute('data-lang', currentLang === 'pt' ? 'en' : 'pt');
-            });
-        }
-    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="/"><h1>zuirx</h1></a>
-        <nav>
-            <button onclick="switchLanguage()">ENGLISH</button>
-            <a href="https://github.com/zuirx">github</a>
-            <a href="guias.html" data-lang="pt" data-pt="guias" data-en="guides">guias</a>
-        </nav>
-    </header>
     <main>
         <div class="center">
-            <h1 data-lang="pt" data-pt="Miguel Artur" data-en="Miguel Artur">Miguel Artur</h1>
-            <h4 data-lang="pt" data-pt="Python | RPA | C | Django | SQL<br>contato: miguelartur@mail.com" data-en="Python | RPA | C | Django | SQL<br>contact: miguelartur@mail.com">
-                Python | RPA | C | Django | SQL<br>contato: miguelartur@mail.com
-            </h4>
-            <h4 data-lang="pt" data-pt="eu fiz algumas coisas, outras nem tanto" data-en="I made some things, others not so much">
-                eu fiz algumas coisas, outras nem tanto
-            </h4>
-            <h4 data-lang="pt" data-pt="existe coisas que a internet não explica muito bem, <br> então fiz <a href='guias.html'>guias</a> que podem ser úteis" data-en="there are things the internet doesn't explain very well, <br> so I made <a href='guias.html'>guides</a> that may be useful">
-                existe coisas que a internet não explica muito bem, <br>então fiz <a href="guias.html">guias</a> que podem ser úteis
-            </h4>
-            <h4 data-lang="pt" data-pt="maioria do que faço está no <a href='https://github.com/zuirx' target='_blank'>github</a> <br> e outras pequenas coisas em <a href='etc.html'>etc</a>" data-en="most of what I do is on <a href='https://github.com/zuirx' target='_blank'>github</a> <br> and other small things on <a href='etc.html'>etc</a>">
-                maioria do que faço está no <a href="https://github.com/zuirx" target="_blank">github</a>
-                <br>
-                e outras pequenas coisas em <a href="etc.html">etc</a>
-            </h4>
-            <br>
-            <h4 data-lang="pt" data-pt="tenha um ótimo dia ☻" data-en="have a great day ☻">tenha um ótimo dia ☻</h4>
+            <div class="bebas-neue-regular"><h1 style="font-size: 48px;">MIGUEL ARTUR / ZUIRX</h1></div>
+            <div class="icons">
+                <nav>
+                    <a href="https://www.instagram.com/mabb0.5/"><img src="img/ig.png" alt="IG" target="_blank"></a>
+                    <a href="https://github.com/zuirx"><img src="img/gh.png" alt="GH" target="_blank"></a>
+                    <a href="https://www.youtube.com/@zuirx"><img src="img/yt.png" alt="YT" target="_blank"></a>
+                </nav>
+            </div>
+            <p><strong>miguelartur@mail.com</strong></p>
         </div>
     </main>
 </body>
