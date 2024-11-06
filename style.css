@@ -7,6 +7,12 @@ body, html
     align-items: center;
     color: #abd82e;
     background-color: #141414;
+    font-family:serif;
+}
+
+img
+{
+    width: 75%;
 }
 
 nav
