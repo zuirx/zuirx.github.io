@@ -1,24 +1,34 @@
-<details>
-    <summary><span><img src="img/computer.gif" alt="[■]"> Baixando coisas do Youtube</span></summary>
-    <p>Isso é algo que a empresa está contantemente tentando impedir, então o que posso colocar aqui pode parar de funcionar amanhã ou não.</p>
-    <h3>Via web (mais fácil e rápido)</h3>
-    <p><a target="_blank" href="https://cobalt.tools">cobalt</a></p>
-    <p>Apenas cola o link na barra, selecione "auto", e enter.</p>
-    <h3>Via celular (Android)</h3>
-    <p><a target="_blank" href="https://newpipe.net">NewPipe</a></p>
-    <p>Para quem lembra SnapTube, isso pode ser uma boa alternativa, mas saiba que ele pode parar de funcionar se o Google quiser..</p>
-    <h3>Via linha de comando</h3>
-    <p>Pode ser mais complicado, mas é mais confiável e sempre atualizado.</p>
-    <p>Para instalar no Windows, abra Powershell (sem administrador), e cole as linhas abaixo:</p>
-    <span style="color:blue; font-size: 12px; font-family: Consolas;">
-        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser<br>
-        Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression<br>
-        scoop install yt-dlp<br>
-    </span>
-    <p>Após instalar, execute a linha para baixar de um link:</p>
-    <span style="color:blue; font-size: 12px; font-family: Consolas; ">
-        yt-dlp -f [CÓDIGO] "[LINK AQUI]"<br>
-    </span>
-    <p>Em [CÓDIGO], pode variar se o Youtube mudar, mas geralmente é o número 18 para vídeo e 140 para música.
-        Essa é a funcionalidade básica dele, pesquisando o nome do programa mostra mais jeitos de como usá-lo.
-</details>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>zuirx - baixando do youtube</title>
+</head>
+<body>
+        <p>Isso é algo que a empresa está contantemente tentando impedir de funcionar, então o que posso colocar aqui pode parar de funcionar amanhã ou não.</p>
+        <p>E é óbvio que não coloquei no youtube, é pura fonte de strike...</p>
+        <h3>Via web (mais fácil e rápido)</h3>
+        <p><a target="_blank" href="https://cobalt.tools">cobalt</a></p>
+        <p>Apenas cola o link na barra, selecione "auto", e enter.</p>
+        <h3>Via celular (Android)</h3>
+        <p><a target="_blank" href="https://newpipe.net">NewPipe</a></p>
+        <p>Para quem lembra SnapTube, isso pode ser uma boa alternativa, mas saiba que ele pode parar de funcionar se o Google quiser..</p>
+        <h3>Via linha de comando</h3>
+        <p>Pode ser mais complicado, mas é mais eficiente e sempre atualizado.</p>
+        <p>Para instalar no Windows, abra o CMD/Powershell (sem administrador), e cole as linhas abaixo:</p>
+        <span style="color:blue; font-size: 12px; font-family: Consolas;">
+            Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser<br>
+            Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression<br>
+            scoop install yt-dlp<br>
+        </span>
+        <p>Após instalar, execute a linha para baixar de um link:</p>
+        <span style="color:blue; font-size: 12px; font-family: Consolas; ">
+            yt-dlp -f [CÓDIGO] "[LINK AQUI]"<br>
+        </span>
+        <p>Em [CÓDIGO], pode variar se o Youtube mudar, mas geralmente é o número 18 para vídeo e 140 para música.<br> Use "yt-dlp -F [LINK]" para achar mais opões.</p>
+        <p>Essa é a funcionalidade básica dele, pesquisando o nome do programa mostra mais jeitos de como usá-lo.</p>
+</body>
+</html>
