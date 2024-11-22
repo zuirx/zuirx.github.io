@@ -28,16 +28,16 @@
             </div>
         </div>
         <hr>
-        <h3>about</h3>
-        <p>Miguel Becker | RPA Programmer | (Django, Python, SQL, C)</p>
+        <p>Miguel Artur | RPA Programmer | (Django, Python, SQL, C)</p>
         <p>Contact: <a href="mailto:miguelartur@mail.com">miguelartur@mail.com</a>, or by any links above.</p>
         <hr>
 
-        <div id="blog-post">
-            <div class="blog-head">
-                <h1>Returning with "blogging"</h1>
+        <details>
+            <summary>
+                <h2>Returning with "blogging"</h2>
                 <span style="color:gray;">21-11-2024</span>
-            </div>
+                <span>explaining things</span>
+            </summary>
             <p style="text-indent: 2em;">Makes more sense creating blog-style posting instead of creating sections for each type of content I make, right?
                 We lose a bunch of time on things which we can't release but you learned something cool, and sharing could be useful for someone.
             </p>
@@ -46,15 +46,15 @@
             <div style="text-align: center;">
                 <a href="dl/oldblog.html">old blog (07/2023 - 05/2024)</a>
             </div>
+        </details>
+        <hr class="blog-hr">
 
-            <hr class="blog-hr">
-        </div>
-
-        <div id="blog-post">
-            <div class="blog-head">
-                <h1>"Roboyst" project</h1>
+        <details>
+            <summary>
+                <h2>"Roboyst" software</h2>
                 <span style="color:gray;">14-11-2024</span>
-            </div>
+                <span>project announcement</span>
+            </summary>
             <p>Currently working on a software suite called Roboyst, <br>automation services of technical support for peripherals and printers.</p>
             <p>Consists in three parts:</p>
             <ul>
@@ -63,13 +63,46 @@
                 <li>Bark: Automatic driver/software installer.</li>
             </ul>
             <p>I just hope it works... and probably change it's name idk</p>
+        </details>
+        <hr class="blog-hr">
 
-            <hr class="blog-hr">
-        </div>
+        <details>
+            <summary>
+                <h2>Making a simple RubberDucky USB on home</h2>
+                <span style="color:gray;">05-09-2024</span>
+                <span>how-to</span>
+            </summary>
+            <p>--holdon--</p>
+        </details>
+        <hr class="blog-hr">
 
-        
-        
-        
+        <details>
+            <summary>
+                <h2>Best way to Download YouTube Content</h2>
+                <span style="color:gray;">03-09-2024</span>
+                <span>how-to</span>
+            </summary>
+            <p>This is something that Google is constantly trying to stop from working, so things I put here may stop working tomorrow or not.</p>
+            <p>And you can't this on Youtube of course, so it'll be here..</p>
+            <h3>Easy way </h3>
+            <p><a target="_blank" href="https://cobalt.tools">cobalt</a> - just paste the link, select auto for video or select audio, and press enter.</p>
+            <h3>Android way</h3>
+            <p><a target="_blank" href="https://newpipe.net">NewPipe</a> - install the app, select video, and hit download. Works well as youtube app alternative, but it could be unstable.</p>
+            <h3>Command line (most reliable)</h3>
+            <p>Harder way but efficient.</p>
+            <p>A easy way to install on windows: open cmd/powershell without admin and execute below:</p>
+            <span style="color:blue; font-size: 12px; font-family: Consolas;">
+                Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser<br>
+                Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression<br>
+                scoop install yt-dlp<br>
+            </span>
+            <p>After install, get content formats available for download:</p>
+            <span style="color:blue; font-size: 12px; font-family: Consolas; ">yt-dlp -F "[LINK]"<br></span>
+            <p>Usually 18 is a video with audio in a regular quality and 140 for audio only. After finding the best download format, run the next command to download</p>
+            <span style="color:blue; font-size: 12px; font-family: Consolas; ">yt-dlp -f 18 "[LINK]"<br></span>
+            <p>Check it's documentation for more useful configuration.</p>
+        </details>
+        <hr class="blog-hr">
 
     </main>
 </body>

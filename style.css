@@ -63,20 +63,12 @@ a
     border-top: 1px dashed black;
 }
 
-.blog-head 
+summary h2
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    margin: 0;
 }
 
-.blog-head h1 
+details
 {
-    margin:5px;
-}
-
-.blog-head span 
-{
-    color: gray;
+    cursor: none;
 }
