@@ -72,7 +72,44 @@
                 <span style="color:gray;">05-09-2024</span>
                 <span>how-to</span>
             </summary>
-            <p>--holdon--</p>
+            <p>Official RubberDucky are cool but expensive, there is a way around it...</p>
+            <p>You can buy one of <a target="_blank" href="https://aliexpress.com/item/1005004858767552.html">these</a> chips at very cheap cost (~5$).</p>
+            <p>Then proceed with installation:</p>
+            <p>1 - Install drivers at <a target="_blank" href="https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip">github</a>. </p>
+            <p>1.1 – Unzip file, open file DPinst64.exe, click nextnextnext etc</p>
+            <p>2 - Install Arduino IDE (Legacy) from <a target="_blank" href="https://www.arduino.cc/en/software#legacy-ide-18x">arduino site</a>. </p>
+            <p>3 - Open Arduino, go to File > Preferences, and on "Additional Boards Manager URLS", paste:</p>
+            <span style="color:blue; font-size: 12px; font-family: Consolas;">
+                https://raw.githubusercontent.com/digistump/arduino-boards-index/refs/heads/master/package_digistump_index.json
+            </span>
+            
+            <p>and click OK</p>
+            <p>3.1 - Go to Tools, in Board: [some board here if you have connected], Boards Manager</p>
+            <p>3.2 - Search for "Digitump", install "Digitump AVR Boards", and hit close after install</p>
+            <p>4 - With all that installed, program your device, use code below as example (this will open calc on windows):</p>
+            <span style="color:blue; font-size: 12px; font-family: Consolas;">
+            #include "DigiKeyboard.h"<br>
+            void setup() {
+            }<br>
+            <br>
+            void loop() {<br>
+            DigiKeyboard.sendKeyStroke(0);<br>
+            DigiKeyboard.delay(500);<br>
+            DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);<br>
+            DigiKeyboard.delay(500);<br>
+            DigiKeyboard.print("calc");<br>
+            DigiKeyboard.sendKeyStroke(KEY_ENTER);<br>
+            DigiKeyboard.delay(500);<br><br>
+            for (;;) {<br>
+                /*empty loop*/<br>
+            }<br>
+            <br>
+            }
+            </span>
+
+            <p>5 - To upload, remove the board, press Ctrl+U, on console connect usb board again if it asks to do, and the script will executed</p>
+            <p>6 - Check these <a target="_blank" href="https://github.com/CedArctic/DigiSpark-Scripts">scripts</a> too. </p>
+            <p>And the rest is history.</p>
         </details>
         <hr class="blog-hr">
 
