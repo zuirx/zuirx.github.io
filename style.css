@@ -51,14 +51,8 @@ a
     justify-content: space-between;
 }
 
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons img {
-    width: 24px;
-    height: 24px;
+.subheader {
+    text-align: center;
 }
 
 @media (max-width: 640px) {
