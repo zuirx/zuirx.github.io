@@ -5,7 +5,7 @@
 
 body {
     margin: 0 auto;
-    max-width: 640px;
+    max-width: 900px;
     font-family: 'Lato', sans-serif;
     background-color: #fff;
     color: #000;
@@ -50,13 +50,28 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 100%; /* Ensure it takes full available width */
+    gap: 30px;
 }
 
 .subheader {
     text-align: center;
 }
 
-@media (max-width: 640px) {
+.subsubheader {
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #6b48ff, #00ddeb);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
     body {
         padding: 0 15px;
     }
