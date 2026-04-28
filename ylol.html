@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>redirecting...</title>
+</head>
+<body>
+  <div id="app">checking ytdl.lol server status...</div>
+
+  <script>
+    const app = document.getElementById("app");
+    const healthUrl = "https://m.ytdl.lol/health/";
+    const redirectUrl = "https://m.ytdl.lol/";
+
+    let retryTimer = null;
+    let checking = false;
+
+    async function checkOnline() {
+        if (checking) return;
+        checking = true;
+
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 3000);
+
+        try {
+        const res = await fetch(healthUrl + "?t=" + Date.now(), {
+            method: "GET",
+            cache: "no-store",
+            signal: controller.signal
+        });
+
+        clearTimeout(timeout);
+        checking = false;
+
+        if (res.ok) {
+            window.location.href = redirectUrl;
+        } else {
+            showErrorAndRetry();
+        }
+        } catch {
+        clearTimeout(timeout);
+        checking = false;
+        showErrorAndRetry();
+        }
+    }
+
+    function showErrorAndRetry() {
+        app.innerHTML = `
+        <main style="font-family: Arial; text-align: center; margin-top: 15vh;">
+            <h1>Service Unavailable</h1>
+            <p>https://zuirx.com is offline or did not respond within 3 seconds.</p>
+            <p>Retrying every second...</p>
+        </main>
+        `;
+
+        if (!retryTimer) {
+        retryTimer = setInterval(checkOnline, 1000);
+        }
+    }
+
+    checkOnline();
+    </script>
+</body>
+</html>
